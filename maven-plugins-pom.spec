@@ -8,7 +8,7 @@ Summary:        Maven Plugins POM
 BuildArch:      noarch
 
 License:        ASL 2.0
-URL:            http://maven.apache.org/plugins/
+URL:            https://maven.apache.org/plugins/
 Source:         http://repo.maven.apache.org/maven2/org/apache/maven/plugins/%{short_name}/%{version}/%{short_name}-%{version}-source-release.zip
 
 BuildRequires:  maven-local
