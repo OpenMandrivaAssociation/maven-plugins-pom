@@ -4,10 +4,12 @@ Name:           %{short_name}-pom
 Version:        50
 Release:        1
 Summary:        Maven Plugins POM
+Group:          Development/Java
 BuildArch:      noarch
 # Literal, so the first rpmbuild -bs records them before sysjar is installed.
 BuildRequires:	maven
 BuildRequires:	java-current-devel
+BuildRequires:	maven-parent
 BuildSystem:	maven
 BuildOption:	validate
 
