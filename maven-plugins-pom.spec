@@ -5,6 +5,9 @@ Version:        50
 Release:        1
 Summary:        Maven Plugins POM
 BuildArch:      noarch
+# Literal, so the first rpmbuild -bs records them before sysjar is installed.
+BuildRequires:	maven
+BuildRequires:	java-current-devel
 BuildSystem:	maven
 BuildOption:	validate
 
